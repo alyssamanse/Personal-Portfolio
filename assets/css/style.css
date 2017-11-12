@@ -1,0 +1,51 @@
+/* Body Wrapper */
+.wrapper {
+
+}
+
+.banner {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.about-row {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #F1F7EE;
+}
+
+.banner-row {
+	background-color: #FF6F59;
+}
+
+
+.portfolio-row {
+	background-color: #70C1B3;
+	padding-bottom: 2em;
+}
+
+.portfolio {
+	background-color: #70C1B3;
+}
+
+.portfolio-header {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.contact {
+	background-color: #FFAF87;
+}
+
+.banner-text {
+	color: #F1F7EE;
+}
+/* Banner Typed Text */
+#banner-typed-text {
+
+}
+
+/* Footer */
+.footer {
+
+}
