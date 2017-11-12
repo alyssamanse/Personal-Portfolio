@@ -3,6 +3,13 @@
 
 }
 
+.logo {
+	display: block;
+	margin: auto;
+	height: 75px;
+	margin-top: -5em;
+}
+
 .banner {
 	margin-top: 5em;
 	margin-bottom: 5em;
@@ -28,6 +35,11 @@
 	background-color: #70C1B3;
 }
 
+
+.portfolio-img {
+	height: 300px;
+	width: 300px;
+}
 .portfolio-header {
 	padding-top: 2em;
 	padding-bottom: 1em;
@@ -35,17 +47,25 @@
 
 .contact {
 	background-color: #FFAF87;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .banner-text {
 	color: #F1F7EE;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 /* Banner Typed Text */
 #banner-typed-text {
 
 }
 
+.card-body {
+	height: 275px;
+}
+
 /* Footer */
 .footer {
-
+ background-color: #9CAFB7;
 }
