@@ -9,6 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/code.ico" type="image/x-icon">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
@@ -19,9 +25,11 @@
 
       <!-- Add Banner Image and TypeIt Text -->
       <div class="row banner-row">
-        <div class="container banner">
+        <div class="container banner text-center">
           <img class="logo img-fluid" src="assets/images/AM.png">
-          <h1 class="display-3 text-center banner-text">I'm Alyssa</h1>
+          <h1 class="display-3 text-center banner-text">Hi, I'm Alyssa and I create </h1>
+          <h1 class="display-3 text-center" id="banner-typed-text"></h1>
+          <a href="#portfolio" class="btn btn-outline-info btn-lg port-btn" role="button" aria-pressed="true">See My Work</a>
         </div>
       </div> <!-- End Banner -->
 
@@ -29,72 +37,75 @@
       <!-- In Own Container, add three columns for 'about' -->
       <div class="row about-row">
         <div class="col-md-4 about-col">
-          <h2 class="text-center">Header Content</h2>
-          <p class="text-center">Paragraph Content</p>
+          <img class="header-img" src="assets/images/design.ico">
+          <h2 class="text-center">Design</h2>
+          <p class="text-center header-para">Perception is reality and with a background in marketing and communications, I know how important your visual identity is on the web. I focus on an intuitive UI for a friendly UI.</p>
         </div>
         <div class="col-md-4 about-col">
-          <h2 class="text-center">Header Content</h2>
-          <p class="text-center">Paragraph Content</p>
+          <img class="header-img" src="assets/images/code.ico">
+          <h2 class="text-center">Development</h2>
+          <p class="text-center header-para">I have experience in front-end languages and libraries including HTML, CSS, Javascript, and jQuery, frameworks like Bootstrap, Materialize and Foundation and back-end technologies Node.js, Express.js and MySQL.</p>
         </div>
         <div class="col-md-4 about-col">
-          <h2 class="text-center">Header Content</h2>
-          <p class="text-center">Paragraph Content</p>
+          <img class="header-img" src="assets/images/bulb.png">
+          <h2 class="text-center">Discovery</h2>
+          <p class="text-center header-para">Design and development are always evolving and I make a point to stay on top of emerging technologies. The beauty comes with aligning industry trends with your unique identity.</p>
         </div>
       </div> <!-- End About Container -->
 
       <!-- In Container Fluid, all Portfolio box w/ rows of squares.. hover over for info -->
       <div class="row portfolio">
         <div class="col">
-          <h1 class="text-center portfolio-header">Portfolio</h1>
+          <h1 class="text-center portfolio-header" id="portfolio">Portfolio</h1>
         </div>
         <div class="row container-fluid portfolio-row">
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">HTML/CSS/JS</h4>
               <div class="card-body">
                 <h4 class="card-title">Beers, Bates, Battlestar Galactica</h4>
                 <p class="card-text">Lindsey and Ryan were looking for a unique wedding website to match their laid-back style and razor sharp wit.</p>
-                <a href="beersbatesbattlestargalactica.com" class="btn btn-primary" target="_blank">Launch Website</a>
+                <a href="beersbatesbattlestargalactica.com" class="btn btn-primary" target="_blank">Website</a>
                 <a href="#" class="btn btn-primary" target="_blank">Learn More</a>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">HTML/CSS/JS</h4>
               <div class="card-body">
                 <h4 class="card-title">ATXperience</h4>
                 <p class="card-text">Using jQuery and APIs from Google Maps, Zomato and Eventful, users can plan an entire day out in Austin, Texas with top proximity-based recommendations.</p>
-                <a href="#" class="btn btn-primary" target="_blank">Launch Website</a>
+                <a href="#" class="btn btn-primary" target="_blank">Website</a>
                 <a href="#" class="btn btn-primary" target="_blank">Learn More</a>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">HTML/CSS/JS</h4>
               <div class="card-body">
                 <h4 class="card-title">GoT Hangman</h4>
                 <p class="card-text">Test your Westerosi knowledge with this game straight out of the Seven Kingdoms. You may want to grab your local maester for this one.</p>
-                <a href="https://alyssamanse.github.io/Hangman-Game/" class="btn btn-primary" target="_blank">Launch Website</a>
+                <a href="https://alyssamanse.github.io/Hangman-Game/" class="btn btn-primary" target="_blank">Website</a>
                 <a href="#" class="btn btn-primary" target="_blank">Learn More</a>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">HTML/CSS/JS</h4>
               <div class="card-body">
                 <h4 class="card-title">90s TV Trivia</h4>
                 <p class="card-text">This timed trivia game using intervals and jQuery will take you right back to a time before TiVo and Netflix.. if you dare.</p>
-                <a href="https://alyssamanse.github.io/TriviaGame/" class="btn btn-primary" target="_blank">Launch Website</a>
+                <a href="https://alyssamanse.github.io/TriviaGame/" class="btn btn-primary" target="_blank">Website</a>
                 <a href="#" class="btn btn-primary" target="_blank">Learn More</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row container-fluid portfolio-row">
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">NODE.JS</h4>
               <div class="card-body">
@@ -104,7 +115,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">NODE.JS/MySQL</h4>
               <div class="card-body">
@@ -114,18 +125,18 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">Express.JS</h4>
               <div class="card-body">
                 <h4 class="card-title">Fringe Friend Finder</h4>
                 <p class="card-text">Find out which character from the television show Fringe your personality most closely matches up with. Hosted on Heroku and created with Boostrap.</p>
-                <a href="https://find-your-friend.herokuapp.com/" class="btn btn-primary" target="_blank">Launch Website</a>
+                <a href="https://find-your-friend.herokuapp.com/" class="btn btn-primary" target="_blank">Website</a>
                 <a href="#" class="btn btn-primary" target="_blank">Learn More</a>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-lg-3 ">
             <div class="card">
               <h4 class="card-header text-center">Express.JS/MySQL</h4>
               <div class="card-body">
@@ -147,20 +158,20 @@
           <div class="col-sm-6 offset-sm-3">
             <form>
               <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name"><strong>Name</strong></label>
                 <input type="text" class="form-control" id="name" placeholder="Name">
               </div>
               <div class="form-group">
-                <label for="email">Email address</label>
+                <label for="email"><strong>Email address</strong></label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email">
               </div>
               <div class="form-group">
-                <label for="website">Current Website</label>
-                <input type="text" class="form-control" id="website" placeholder="Website URL, if available">
+                <label for="website"><strong>Website</strong></label>
+                <input type="text" class="form-control" id="website" placeholder="Website URL, if applicable">
               </div>
               <div class="form-group">
-                <label for="comment">Comments</label>
-                <textarea rows="5" class="form-control" id="comment" placeholder="Tell me about your project..."></textarea>
+                <label for="comment"><strong>Comments</strong></label>
+                <textarea rows="5" class="form-control" id="comment" placeholder="Tell me what you're looking for..."></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -189,6 +200,10 @@
 
     <!-- JS File-->
     <script src="assets/javascript/app.js" type="text/javascript" charset="utf-8" async defer></script>
+
+    <!-- Type It Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+      
 
   </body>
 </html>
